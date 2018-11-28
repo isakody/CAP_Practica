@@ -1,126 +1,7 @@
-[31mError: No binding for a
+[31mError: No binding for b
 [0mByteSymbol(Object)>>error:
 ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mTestFailure: Assertion failed
-[0mPracticaTest(TestAsserter)>>assert:
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
-PracticaTest>>testVariableBinding
-PracticaTest(TestCase)>>performTest
-PracticaTest(TestCase)>>runCase in Block: [ ...
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>runCase
-PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
-BlockClosure>>ensure:
-PracticaTest(TestCase)>>debug
-PracticaTest class(TestCase class)>>debug:
-PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
-BlockClosure>>newProcess in Block: [ ...
-[0m[31mError: No binding for a
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-PracticaTest>>testVariableBinding in Block: [ ...
+PracticaTest>>testVariableBinding in Block: [ self assert: #b binding = nil ]
 PracticaTest>>testVariableBinding
 PracticaTest(TestCase)>>performTest
 PracticaTest(TestCase)>>runCase in Block: [ ...
@@ -147,4 +28,208 @@ PracticaTest(TestCase)>>debug
 PracticaTest class(TestCase class)>>debug:
 PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
 BlockClosure>>newProcess in Block: [ ...
+[0m[31mHalt
+[0mPROG>>addVariables:in:
+PracticaTest>>testVariableBinding
+PracticaTest(TestCase)>>performTest
+PracticaTest(TestCase)>>runCase in Block: [ ...
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>runCase
+TestResult>>runCase: in Block: [ ...
+BlockClosure>>on:do:
+TestResult>>runCase:
+PracticaTest(TestCase)>>run:
+PracticaTest(TestCase)>>run in Block: [ self run: result ]
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>run
+PracticaTest class(TestCase class)>>run:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethodWithAnHalt:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ self runTestForAMethodWithAnHalt: aMethod ]
+BlockClosure>>newProcess in Block: [ ...
+[0m[31mHalt
+[0mPROG>>addVariables:in:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+TextMorphForEditView(TextMorph)>>handleKeystroke:
+[0m[31mError: No binding for b
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Symbol)>>binding
+UndefinedObject>>DoIt in Block: [ #b binding ]
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+[0m[31mError: No binding for b
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Symbol)>>binding
+UndefinedObject>>DoIt in Block: [ #b binding ]
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+[0m[31mError: No binding for b
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Symbol)>>binding
+UndefinedObject>>DoIt in Block: [ #b binding ]
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+[0m[31mError: No binding for b
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Symbol)>>binding
+UndefinedObject>>DoIt in Block: [ #b binding ]
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+[0m[31mHalt
+[0mUndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+TextMorphForEditView(TextMorph)>>handleKeystroke:
+KeyboardEvent>>sentTo:
 [0m
