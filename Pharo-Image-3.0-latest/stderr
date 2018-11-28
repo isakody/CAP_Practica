@@ -1,6 +1,235 @@
-[31mError: No binding for RETURN
+[31mError: No binding for label1
 [0mByteSymbol(Object)>>error:
 ByteSymbol(Symbol)>>binding
+UndefinedObject>>DoIt in Block: [ #label1 binding ]
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+[0m[31mMessageNotUnderstood: Array>>bindTo:in:
+[0mArray(Object)>>doesNotUnderstand: #bindTo:in:
+PROG>>addCode:in: in Block: [ ...
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+[0m[31mMessageNotUnderstood: Array>>bindTo:in:
+[0mArray(Object)>>doesNotUnderstand: #bindTo:in:
+PROG>>addCode:in: in Block: [ ...
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+[0m[31mMessageNotUnderstood: Array>>bindTo:in:
+[0mArray(Object)>>doesNotUnderstand: #bindTo:in:
+PROG>>addCode:in: in Block: [ ...
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+[0m[31mMessageNotUnderstood: Array>>bindTo:in:
+[0mArray(Object)>>doesNotUnderstand: #bindTo:in:
+PROG>>addCode:in: in Block: [ ...
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+[0m[31mMessageNotUnderstood: Array>>bindTo:in:
+[0mArray(Object)>>doesNotUnderstand: #bindTo:in:
+PROG>>addCode:in: in Block: [ ...
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+[0m[31mSubscriptOutOfBounds: 0
+[0mArray(Object)>>errorSubscriptBounds:
+Array(Object)>>at:
+Array(SequenceableCollection)>>last
+PROG>>addCode:in:
+PROG>>addCode:in:
+PROG>>addCode:in:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+[0m[31mError: No binding for label1
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Symbol)>>binding
+PROG class>>withInit:do: in Block: [ #label1 binding value ]
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+PROG>>addCode:in: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+PROG>>addVariables:in: in Block: [ lastVariable bindTo: nil in: aBlock ]
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
 PROG class>>withInit:do:
 UndefinedObject>>DoIt
 OpalCompiler>>evaluate
@@ -17,146 +246,14 @@ KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self b
 Array(SequenceableCollection)>>do:
 KMKeymap>>notifyCompleteMatchTo:buffer:
 KMKeymap>>onMatchWith:notify:andDo:
-KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
-Set>>do:
-KMCategory>>onMatchWith:notify:andDo:
-KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
-KMDispatcher>>dispatch: in Block: [ :aTarget | ...
-OrderedCollection>>do:
-KMDispatcher>>dispatch:
-KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
-[0m[31mMessageNotUnderstood: BlockClosure>>second
-[0mBlockClosure(Object)>>doesNotUnderstand: #second
-PROG>>addCode:in:
-UndefinedObject>>DoIt
-OpalCompiler>>evaluate
-SmalltalkEditor>>evaluateSelectionAndDo:
-PluggableTextMorph>>printIt in Block: [ ...
-TextMorphForEditView(TextMorph)>>handleEdit:
-PluggableTextMorph>>printIt
-SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
-BlockClosure>>cull:
-BlockClosure>>cull:cull:
-BlockClosure>>cull:cull:cull:
-KMCategoryBinding>>completeMatch:buffer:
-KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
-Array(SequenceableCollection)>>do:
-KMKeymap>>notifyCompleteMatchTo:buffer:
-KMKeymap>>onMatchWith:notify:andDo:
-KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
-Set>>do:
-KMCategory>>onMatchWith:notify:andDo:
-KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
-KMDispatcher>>dispatch: in Block: [ :aTarget | ...
-OrderedCollection>>do:
-KMDispatcher>>dispatch:
-KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
-TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
-[0m[31mMessageNotUnderstood: BlockClosure>>second
-[0mBlockClosure(Object)>>doesNotUnderstand: #second
-PROG>>addCode:in:
-UndefinedObject>>DoIt
-OpalCompiler>>evaluate
-SmalltalkEditor>>evaluateSelectionAndDo:
-PluggableTextMorph>>printIt in Block: [ ...
-TextMorphForEditView(TextMorph)>>handleEdit:
-PluggableTextMorph>>printIt
-SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
-BlockClosure>>cull:
-BlockClosure>>cull:cull:
-BlockClosure>>cull:cull:cull:
-KMCategoryBinding>>completeMatch:buffer:
-KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
-Array(SequenceableCollection)>>do:
-KMKeymap>>notifyCompleteMatchTo:buffer:
-KMKeymap>>onMatchWith:notify:andDo:
-KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
-Set>>do:
-KMCategory>>onMatchWith:notify:andDo:
-KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
-KMDispatcher>>dispatch: in Block: [ :aTarget | ...
-OrderedCollection>>do:
-KMDispatcher>>dispatch:
-KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
-TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
-[0m[31mMessageNotUnderstood: BlockClosure>>second
-[0mBlockClosure(Object)>>doesNotUnderstand: #second
-PROG>>addCode:in:
-UndefinedObject>>DoIt
-OpalCompiler>>evaluate
-SmalltalkEditor>>evaluateSelectionAndDo:
-PluggableTextMorph>>printIt in Block: [ ...
-TextMorphForEditView(TextMorph)>>handleEdit:
-PluggableTextMorph>>printIt
-SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
-BlockClosure>>cull:
-BlockClosure>>cull:cull:
-BlockClosure>>cull:cull:cull:
-KMCategoryBinding>>completeMatch:buffer:
-KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
-Array(SequenceableCollection)>>do:
-KMKeymap>>notifyCompleteMatchTo:buffer:
-KMKeymap>>onMatchWith:notify:andDo:
-KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
-Set>>do:
-KMCategory>>onMatchWith:notify:andDo:
-KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
-KMDispatcher>>dispatch: in Block: [ :aTarget | ...
-OrderedCollection>>do:
-KMDispatcher>>dispatch:
-KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
-TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
-[0m[31mError: No binding for n
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-UndefinedObject>>DoIt in Block: [ #n binding ]
-UndefinedObject>>DoIt
-OpalCompiler>>evaluate
-SmalltalkEditor>>evaluateSelectionAndDo:
-PluggableTextMorph>>printIt in Block: [ ...
-TextMorphForEditView(TextMorph)>>handleEdit:
-PluggableTextMorph>>printIt
-SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
-BlockClosure>>cull:
-BlockClosure>>cull:cull:
-BlockClosure>>cull:cull:cull:
-KMCategoryBinding>>completeMatch:buffer:
-KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
-Array(SequenceableCollection)>>do:
-KMKeymap>>notifyCompleteMatchTo:buffer:
-KMKeymap>>onMatchWith:notify:andDo:
-KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
-Set>>do:
-KMCategory>>onMatchWith:notify:andDo:
-KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
-KMDispatcher>>dispatch: in Block: [ :aTarget | ...
-OrderedCollection>>do:
-KMDispatcher>>dispatch:
-KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
 [0m[31mError: No binding for label1
 [0mByteSymbol(Object)>>error:
 ByteSymbol(Symbol)>>binding
-UndefinedObject>>DoIt in Block: [ #label1 binding ]
+UndefinedObject>>DoIt in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+PROG>>addCode:in: in Block: [ ...
 UndefinedObject>>DoIt
 OpalCompiler>>evaluate
 SmalltalkEditor>>evaluateSelectionAndDo:
@@ -180,14 +277,14 @@ KMDispatcher>>dispatch: in Block: [ :aTarget | ...
 OrderedCollection>>do:
 KMDispatcher>>dispatch:
 KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
-[0m[31mError: No binding for label1
+[0m[31mError: No binding for label2
 [0mByteSymbol(Object)>>error:
 ByteSymbol(Symbol)>>binding
-UndefinedObject>>DoIt in Block: [ #label1 binding ]
+UndefinedObject>>DoIt in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+PROG>>addCode:in: in Block: [ ...
 UndefinedObject>>DoIt
 OpalCompiler>>evaluate
 SmalltalkEditor>>evaluateSelectionAndDo:
@@ -211,39 +308,4 @@ KMDispatcher>>dispatch: in Block: [ :aTarget | ...
 OrderedCollection>>do:
 KMDispatcher>>dispatch:
 KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
-[0m[31mError: No binding for label1
-[0mByteSymbol(Object)>>error:
-ByteSymbol(Symbol)>>binding
-UndefinedObject>>DoIt in Block: [ #label1 binding ]
-UndefinedObject>>DoIt
-OpalCompiler>>evaluate
-SmalltalkEditor>>evaluateSelectionAndDo:
-PluggableTextMorph>>printIt in Block: [ ...
-TextMorphForEditView(TextMorph)>>handleEdit:
-PluggableTextMorph>>printIt
-SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
-BlockClosure>>cull:
-BlockClosure>>cull:cull:
-BlockClosure>>cull:cull:cull:
-KMCategoryBinding>>completeMatch:buffer:
-KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
-Array(SequenceableCollection)>>do:
-KMKeymap>>notifyCompleteMatchTo:buffer:
-KMKeymap>>onMatchWith:notify:andDo:
-KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
-Set>>do:
-KMCategory>>onMatchWith:notify:andDo:
-KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
-KMDispatcher>>dispatch: in Block: [ :aTarget | ...
-OrderedCollection>>do:
-KMDispatcher>>dispatch:
-KMTarget>>dispatch:
-KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
-KMDispatchChain>>do:
-KMDispatchChain>>dispatch:
-KMDispatcher>>dispatchKeystroke:
 [0m
