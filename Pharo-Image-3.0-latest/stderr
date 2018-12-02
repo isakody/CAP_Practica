@@ -1,0 +1,63 @@
+[31mMessageNotUnderstood: ByteSymbol>>change
+[0mByteSymbol(Object)>>doesNotUnderstand: #change
+PracticaTest class>>DoIt in Block: [ :cc | ...
+Continuation class>>currentDo:
+Continuation class>>callcc:
+PracticaTest class>>DoIt in Block: [ ...
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+BASIC class>>withInit:do: in Block: [ someCodeArray first first binding value ]
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addVariables:in: in Block: [ lastVariable bindTo: nil in: aBlock ]
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addVariables:in: in Block: [ lastVariable bindTo: nil in: aBlock ]
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+[0m[31mError: Reading a number failed: a digit between 0 and 9 expected
+[0mNumberParser(Object)>>error:
+NumberParser>>expected:
+NumberParser>>readNamedFloatOrFail
+NumberParser>>nextNumber
+Number class>>readFrom:
+Number class(Object)>>readFromString:
+ByteSymbol(String)>>asNumber
+SmallInteger(Number)>>adaptToString:andSend:
+ByteSymbol(String)>>+
+PracticaTest class>>DoIt in Block: [ #assoc binding value: #assoc binding value + 1 ]...etc...
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+BASIC class>>withInit:do: in Block: [ someCodeArray first first binding value ]
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+Binding>>of:to:in:
+Binding class>>of:to:in:
+ByteSymbol(Symbol)>>bindTo:in:
+BASIC class>>addCode:in:previousLabel: in Block: [ ...
+Binding>>of:to:in:
+[0m
