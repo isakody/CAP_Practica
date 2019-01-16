@@ -1,0 +1,97 @@
+[31mTestFailure: Assertion failed
+[0mPracticaTest(TestAsserter)>>assert:
+PracticaTest>>testEnunciadoDos
+PracticaTest(TestCase)>>performTest
+PracticaTest(TestCase)>>runCase in Block: [ ...
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>runCase
+PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>debug
+PracticaTest class(TestCase class)>>debug:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
+BlockClosure>>newProcess in Block: [ ...
+[0m[31mTestFailure: Assertion failed
+[0mPracticaTest(TestAsserter)>>assert:
+PracticaTest>>testEnunciadoDos
+PracticaTest(TestCase)>>performTest
+PracticaTest(TestCase)>>runCase in Block: [ ...
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>runCase
+PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>debug
+PracticaTest class(TestCase class)>>debug:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
+BlockClosure>>newProcess in Block: [ ...
+[0m[31mTestFailure: Assertion failed
+[0mPracticaTest(TestAsserter)>>assert:
+PracticaTest>>testEnunciadoDos
+PracticaTest(TestCase)>>performTest
+PracticaTest(TestCase)>>runCase in Block: [ ...
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>runCase
+PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>debug
+PracticaTest class(TestCase class)>>debug:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
+BlockClosure>>newProcess in Block: [ ...
+[0m[31mMessageNotUnderstood: SmallInteger>>,
+[0mSmallInteger(Object)>>doesNotUnderstand: #,
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+SmalltalkEditor>>evaluateSelectionAndDo:
+PluggableTextMorph>>printIt in Block: [ ...
+TextMorphForEditView(TextMorph)>>handleEdit:
+PluggableTextMorph>>printIt
+SmalltalkEditor class>>buildSmalltalkEditorKeymappingsOn: in Block: [ :morph | morph printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+KMDispatcher>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+KMDispatcher>>dispatch:
+KMTarget>>dispatch:
+KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+TextMorphForEditView(Morph)>>dispatchKeystrokeForEvent:
+TextMorphForEditView(TextMorph)>>handleKeystroke:
+[0m[31mTestFailure: Assertion failed
+[0mPracticaTest(TestAsserter)>>assert:
+PracticaTest>>testEnunciadoDos
+PracticaTest(TestCase)>>performTest
+PracticaTest(TestCase)>>runCase in Block: [ ...
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>runCase
+PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>debug
+PracticaTest class(TestCase class)>>debug:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
+BlockClosure>>newProcess in Block: [ ...
+[0m[31mTestFailure: Assertion failed
+[0mPracticaTest(TestAsserter)>>assert:
+PracticaTest>>testEnunciadoDos
+PracticaTest(TestCase)>>performTest
+PracticaTest(TestCase)>>runCase in Block: [ ...
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>runCase
+PracticaTest(TestCase)>>debug in Block: [ (self class selector: testSelector) runCase ]
+BlockClosure>>ensure:
+PracticaTest(TestCase)>>debug
+PracticaTest class(TestCase class)>>debug:
+PackageTreeNautilusUI(NautilusUI)>>runTestForAMethod:notifying:priority: in Block: [ ...
+BlockClosure>>newProcess in Block: [ ...
+[0m
